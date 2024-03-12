@@ -10,7 +10,7 @@ body:
         タスク名を作成する
     validations:
       required: true
-  - type: dropdown
+  - type: textarea
     id: name
     attributes:
       label: "担当者"
