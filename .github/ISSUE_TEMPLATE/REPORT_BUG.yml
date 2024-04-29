@@ -2,7 +2,7 @@ name: "バグ報告"
 description: "バグを報告するためのチケットです。"
 body:
   - type: textarea
-    id: taskName
+    id: bugName
     attributes:
       label: "バグのタイトル"
       description: "バグ名を記載"
@@ -11,16 +11,16 @@ body:
     validations:
       required: true
   - type: textarea
-    id: name
+    id: reportName
     attributes:
-      label: "担当者"
-      description: "担当者の名前を記載"
+      label: "報告者"
+      description: "報告者の名前を記載"
       placeholder: |
-        担当者の名前を選択する。
+        報告者の名前を作成する。
     validations:
       required: true
   - type: textarea
-    id: content
+    id: asIsCurrent
     attributes:
       label: "As Is(今の状態)"
       description: |
@@ -28,7 +28,7 @@ body:
       value: |
         現状どんなバグが発生しており、どんな影響が発生しているのかを具体的かつ詳細に記載する。
   - type: textarea
-    id: content
+    id: toBeChanged
     attributes:
       label: "To Be(理想の状態)"
       description: |
@@ -36,7 +36,7 @@ body:
       value: |
         どのような状態が理想の状態であるかを具体的かつ詳細に記載する。
   - type: textarea
-    id: content
+    id: solution
     attributes:
       label: "課題"
       description: |
@@ -44,7 +44,7 @@ body:
       value: |
         発生したバグを解決するために現状分かっている課題を番号順にリスト化して記載する。
   - type: textarea
-    id: issue
+    id: extra
     attributes:
       label: "備考欄"
       description: |
