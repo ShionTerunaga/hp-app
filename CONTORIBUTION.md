@@ -36,7 +36,8 @@ label に関しては複数使用するのもよしとする。
 | documentation | doc/\*     |
 | task          | task/\*    |
 
-> [!WARNING] \*の部分は英数字で
+> [!WARNING]
+> 　\*の部分は英数字で
 
 # Pull Request について
 
