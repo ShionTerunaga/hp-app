@@ -11,4 +11,5 @@
 1. `pnpm install`を実行
 1. `pnpm dev`で開く
 
-> [!WARNING] `project`の中で実行すること
+> [!WARNING]
+> `project`の中で実行すること
