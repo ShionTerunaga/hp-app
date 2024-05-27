@@ -1,5 +1,3 @@
-import { Top } from "../view/top"
-
 export default function Home() {
-    return <Top />
+    return <main>ようこそ開発へ〜〜〜〜〜</main>
 }

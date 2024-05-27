@@ -1,12 +1,12 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import "./global.css"
+import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-    title: "ハリーポッター図鑑",
-    description: "ハリーポッターの図鑑です。"
+    title: "Harry Potter App",
+    description: "This is Harry Potter App."
 }
 
 export default function RootLayout({
