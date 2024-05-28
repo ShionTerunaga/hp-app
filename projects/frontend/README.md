@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# フロントエンド
 
-## Getting Started
+## 1 概要
 
-First, run the development server:
+こちらはフロントエンドのディレクトリです。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 2 開発環境
+
+-   Next.js 14.2.3
+-   react 18
+-   vanilla-extract 1.15.2
+-   storybook 8.1.3
+-   vitest 1.6.0
+
+## 3 手順
+
+### 3.1 パッケージインストール
+
+```sh
+$pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3.2 各種実行
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### 3.2.1 開発環境実行
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```sh
+$pnpm dev
+```
 
-## Learn More
+#### 3.2.2 本番環境実行
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+$pnpm build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+をした後に、
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```sh
+$pnpm start
+```
 
-## Deploy on Vercel
+#### 3.2.3 テスト実行
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```sh
+$pnpm test
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### 3.2.4 storybook 起動
+
+```sh
+$pnpm storybook
+```
+
+#### 3.2.5 `lint`確認
+
+```sh
+$pnpm lint
+```
