@@ -32,7 +32,7 @@ label に関しては複数使用するのもよしとする。
 | label         | branch 名  |
 | ------------- | ---------- |
 | enhancement   | feature/\* |
-| bug           | bug/\*     |
+| bug           | fix/\*     |
 | documentation | doc/\*     |
 | task          | task/\*    |
 
