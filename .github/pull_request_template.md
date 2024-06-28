@@ -1,6 +1,6 @@
 ## issue の番号
 
-> #[issue の番号]
+closed #[issue の番号]
 
 ## どのような内容のタスクか
 
