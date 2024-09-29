@@ -6,6 +6,10 @@
     "start": "bun run index.ts"
   },
   "devDependencies": {
-    "@types/bun": "^1.0.0"
+    "@types/bun": "^1.0.0",
+    "@types/figlet": "^1.5.8"
+  },
+  "dependencies": {
+    "figlet": "^1.7.0"
   }
 }
