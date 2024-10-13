@@ -7,6 +7,9 @@ const PORT = 3000;
 // ルーティングの設定
 const userRouter = require("./routes/user");
 
+// ミドルウェアの設定
+app.use(mylogger);
+
 // publicフォルダにあるHTMLファイルをよみこむ
 // app.use(express.static("public"));
 app.set("view engine", "ejs");
@@ -25,5 +28,11 @@ app.use("/user", userRouter);
 // app.use("/auth", authRouter);
 // app.use("/customer", customerRouter);
 // app.use("/product", productRouter);
+
+// ミドルウェアを定義
+function mylogger (req, res, next) {
+  console.log(req.originalUrl);
+  next();
+}
 
 app.listen(PORT, () => console.log("Server is running on port " + PORT));
