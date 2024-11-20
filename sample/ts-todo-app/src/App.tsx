@@ -1,8 +1,16 @@
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <h1>Hello world!</h1>
+    <div className="App">
+      <div>
+        <h1>TypeScript Todo App</h1>
+        <form onSubmit={() => {}}>
+          <input type="text" onChange={() => {}} className="inputText" />
+          <input type="submit" value="add" className="submitButton" />
+        </form>
+      </div>
+    </div>
   );
 }
 
