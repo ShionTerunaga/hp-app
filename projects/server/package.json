@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "app.ts",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "start": "tsx watch ./app.ts"
   },
   "keywords": [],
