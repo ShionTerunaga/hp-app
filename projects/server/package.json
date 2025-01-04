@@ -1,23 +1,25 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "main": "app.ts",
-  "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "start": "tsx watch ./app.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.10.2",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
-  }
+    "name": "server",
+    "version": "1.0.0",
+    "main": "./src/server.ts",
+    "scripts": {
+        "preinstall": "npx only-allow pnpm",
+        "start": "tsx watch ./src/server.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@types/cors": "^2.8.17",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.10.2",
+        "tsx": "^4.19.2",
+        "typescript": "^5.7.2"
+    }
 }
