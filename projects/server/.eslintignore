@@ -1,0 +1,5 @@
+.eslintrc.cjs
+.github
+node_modules
+build
+bin
