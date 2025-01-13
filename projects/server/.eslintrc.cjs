@@ -45,7 +45,6 @@ module.exports = {
     "import/default": "off",
     "import/no-named-as-default-member": "off",
     "import/order": "error",
-    "newline-before-return": "error",
 
     "no-unreachable": "error",
 
