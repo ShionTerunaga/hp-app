@@ -4,5 +4,9 @@ export const hogeController = (
     req: Express.Request,
     res: Express.Response
 ): void => {
-    res.render("./hoge.ejs");
+    const data = {
+        title: "hogeController!!",
+        contents: "hoge sandesu."
+    };
+    res.render("./hoge.ejs", data);
 };

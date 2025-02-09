@@ -8,7 +8,7 @@ const app = express();
 const port = appConfig.port;
 
 app.set("view engine", "ejs");
-app.set('views', './src/views')
+app.set("views", "./src/views");
 
 app.use(cors());
 app.use(express.json());
