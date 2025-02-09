@@ -1,7 +1,6 @@
 import * as log4js from "log4js";
 
 export class Log {
-
     public static init() {
         log4js.configure("./log4js.config.json");
     }
