@@ -14,7 +14,7 @@
         "fmt": "pnpm run fmt:eslint && pnpm run fmt:prettier",
         "fmt:eslint": "eslint --fix .",
         "fmt:prettier": "prettier --write .",
-        "start": "PORT=3000 NODE_ENV=production tsx ./src/server.ts",
+        "start": "PORT=6060 NODE_ENV=production tsx ./src/server.ts",
         "test": "vitest",
         "type-check": "tsc --noEmit"
     },
