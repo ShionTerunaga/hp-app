@@ -1,5 +1,5 @@
-import { HomeLayout } from "./layout/home-layout"
+import { HomeLayout } from "./layout/home-layout";
 
 export default function Home() {
-    return <HomeLayout />
+    return <HomeLayout />;
 }

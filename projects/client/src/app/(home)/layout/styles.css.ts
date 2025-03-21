@@ -1,4 +1,4 @@
-import { style } from "@vanilla-extract/css"
+import { style } from "@vanilla-extract/css";
 
 const styles = {
     heading: style({
@@ -31,6 +31,6 @@ const styles = {
         height: 95,
         marginTop: 40
     })
-}
+};
 
-export default styles
+export default styles;

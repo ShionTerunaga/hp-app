@@ -6,8 +6,8 @@
 
 ## 技術スタック
 
--   Next.js
--   vanilla-extract
+- Next.js
+- vanilla-extract
 
 ## 環境構築
 

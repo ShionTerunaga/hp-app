@@ -1,5 +1,5 @@
-import { ja } from "@/shared/lang/ja"
-import styles from "./styles.css"
+import { ja } from "@/shared/lang/ja";
+import styles from "./styles.css";
 
 export function HomeLayout() {
     return (
@@ -18,5 +18,5 @@ export function HomeLayout() {
                 </div>
             </section>
         </main>
-    )
+    );
 }

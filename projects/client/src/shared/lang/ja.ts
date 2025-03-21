@@ -4,4 +4,4 @@ export const ja = {
         C: "C",
         character: "haracter"
     }
-}
+};

@@ -1,13 +1,13 @@
-"use client"
+"use client";
 
-import { ReactNode, MouseEventHandler } from "react"
-import styles from "./style.css"
+import { ReactNode, MouseEventHandler } from "react";
+import styles from "./style.css";
 
 interface props {
-    children: ReactNode
-    onClick?: MouseEventHandler<HTMLButtonElement> | undefined
+    children: ReactNode;
+    onClick?: MouseEventHandler<HTMLButtonElement> | undefined;
 }
 
 export const ButtonSample = (props: props) => {
-    return <button className={styles.container} {...props} />
-}
+    return <button className={styles.container} {...props} />;
+};
