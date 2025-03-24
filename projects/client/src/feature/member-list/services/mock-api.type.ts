@@ -3,7 +3,7 @@ import { Option } from "@/lib/core/option";
 export interface APIRess {
     id: string;
     name: string;
-    alternate_names: string[];
+    alternateNames: string[];
     species: string;
     gender: "male" | "female";
     house: string;
@@ -22,7 +22,7 @@ export interface APIRess {
     hogwartsStudent: boolean;
     hogwartsStaff: boolean;
     actor: string;
-    alternate_actors: string[];
+    alternateActors: string[];
     alive: boolean;
     image: string;
 }
