@@ -1,6 +1,6 @@
 import { Option } from "@/lib/core/option";
 
-export interface APIRess {
+export interface UsePotter {
     id: string;
     name: string;
     alternateNames: string[];

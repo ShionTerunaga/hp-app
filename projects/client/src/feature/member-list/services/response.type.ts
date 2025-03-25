@@ -1,4 +1,4 @@
-export interface APIRess {
+export interface APIRes {
     id: string;
     name: string;
     alternate_names: string[];
