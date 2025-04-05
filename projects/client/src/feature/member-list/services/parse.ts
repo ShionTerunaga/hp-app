@@ -2,7 +2,7 @@ import { createOption, Option } from "@/lib/core/option";
 import { UsePotter } from "./mock-api.type";
 import { APIRes } from "./response.type";
 
-export function ParseRes(res: APIRes[]): UsePotter[] {
+export function ParseRes(res: APIRes): UsePotter[] {
     const filteredRes = res.filter((item) => item.image !== "");
 
     const response: UsePotter[] = filteredRes.map((item) => {

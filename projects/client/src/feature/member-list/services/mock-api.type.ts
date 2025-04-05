@@ -5,7 +5,7 @@ export interface UsePotter {
     name: string;
     alternateNames: string[];
     species: string;
-    gender: "male" | "female";
+    gender: "male" | "female" | "";
     house: string;
     dateOfBirth: Option<string>;
     yearOfBirth: Option<number>;
